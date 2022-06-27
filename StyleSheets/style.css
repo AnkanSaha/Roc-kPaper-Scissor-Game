@@ -1,0 +1,55 @@
+body{
+    background-image: url('/icons/board.jpg');
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip: inherit;
+}
+  #gameboard{
+      width: 80%;
+      height: 80vh;
+      margin-left: 10%;
+      margin-top: 6vh;
+      border-radius: 5%;
+      background-color: rgb(216, 66, 66);
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #spining{
+    display: none;
+  }
+  #spinitem{
+    margin-left: 45%;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  @media (max-width:500px) {
+    #spinitem{
+      margin-left: 41%;
+    }
+    #instruction{
+      font-size: 216%;
+    }
+  }
+  @media (max-width:280px) {
+    #spinitem{
+      margin-left: 33%;
+    }
+  }
+  #finalpic{
+    width: 50%;
+    height: 90%;
+    display: none;
+  }
+  #instruction{
+    font-size: 400%;
+    color: yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-variant: inherit;
+  }
